@@ -19,7 +19,7 @@ Image subtraction is an effective method for eliminating false positives because
   <img src="https://github.com/kofichtner/Fire_Detection/blob/main/figures/fire_detection_subtraction.JPG"
 </p>
   
-The convolutional neural network shows a lot of potential for improving the accuracy of the color ratio detection method. While the neural network can perform well using just the RGB color images, there are many advantages to the color ratio method. Color ratio can be used to estimate temperature, so the color ratio method can control the temperature of the fire being detected. The color ratio method also reduces the impact of the emissivity of the firebrand or soot in the flames, since it is not based on pixel intensity alone [1]. Future research may include building a dataset of NIR fire images to test the neural network using a NIR/R color ratio.
+The convolutional neural network, tested on the [FIRE dataset](https://www.kaggle.com/phylake1337/fire-dataset) shows a lot of potential for improving the accuracy of the color ratio detection method. While the neural network can perform well using just the RGB color images, there are many advantages to the color ratio method. Color ratio can be used to estimate temperature, so the color ratio method can control the temperature of the fire being detected. The color ratio method also reduces the impact of the emissivity of the firebrand or soot in the flames, since it is not based on pixel intensity alone [1]. Future research may include building a dataset of NIR fire images to test the neural network using a NIR/R color ratio.
 <p align="center">
   <img src="https://github.com/kofichtner/Fire_Detection/blob/main/figures/fire_detection_cnn_confusion.png"
 </p>
